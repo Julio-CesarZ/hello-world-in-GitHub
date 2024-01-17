@@ -1,7 +1,0 @@
-let ValorOriginal = 100;
-
-let DescontoDaEmpresa = 15;
-
-let ValorComDesconto = ValorOriginal - (ValorOriginal * (DescontoDaEmpresa / 100));
-
-console.log(ValorComDesconto);
