@@ -1,0 +1,19 @@
+// Dados fornecidos
+const diametroRoda = 75; // em milímetros
+const relacaoEngrenagem = 20;
+const ticksPorRevolucao = 28;
+const distanciaDesejada = 1000; // em milímetros (1 metro)
+
+// Convertendo o diâmetro para raio em metros
+const raioRoda = diametroRoda / 2000;
+
+// Calculando a circunferência da roda
+const circunferenciaRoda = Math.PI * 2 * raioRoda;
+
+// Calculando a distância percorrida por uma rotação completa do motor
+const distanciaMotor = circunferenciaRoda * relacaoEngrenagem;
+
+// Calculando o número de ticks necessários para percorrer um metro
+const ticksNecessarios = (distanciaDesejada / distanciaMotor) * ticksPorRevolucao;
+
+console.log("Número de ticks necessários:", ticksNecessarios);

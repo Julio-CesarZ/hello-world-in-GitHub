@@ -1,0 +1,9 @@
+console.log("Hello World");
+
+const valor = 20;
+
+console.log(valor);
+
+let frase = "O Universo se expande";
+
+console.log(frase);

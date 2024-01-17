@@ -1,0 +1,50 @@
+// exercício 1
+
+let valorAtividadeUm = 11;
+
+if(valorAtividadeUm > 10) {
+    console.log("Este valor é maior que 10!");
+} else {
+    console.log("Este valor é igual ou menor que 10!");
+}
+
+// exercício 2
+console.log("\n");
+
+let alturaMaxima = 5;
+
+let veiculoDoExercicio2 = 4.5;
+
+if(veiculoDoExercicio2 < alturaMaxima) {
+    console.log("Pode prosseguir, altura dentro dos limites!");
+} else {
+    console.log("Não prossiga, altura excedida!");
+}
+
+// exercício 3
+console.log("\n");
+
+let nota1_AlunoA = 10;
+let nota2_AlunoA = 5;
+
+let media = (10 + 5) / 2
+
+if(media >= 7) {
+    console.log("Parabéns, sua média é " + media + "\nEstá aprovado!");
+} else {
+    console.log("Reprovado.\nSua média é " + media);
+}
+
+// exercício 4
+console.log("\n");
+
+let precoGasolina = 5.67;
+let precoAlcool = 4.80;
+
+let alcoolDivididoGasolina = precoAlcool / precoGasolina;
+
+if(alcoolDivididoGasolina < 0.7) {
+    console.log("O resultado é: " + alcoolDivididoGasolina.toFixed(2) + "\nUtilize álcool!");
+} else {
+    console.log("O resultado é: " + alcoolDivididoGasolina.toFixed(2) + "\nUtilize gasolina!");
+}
